@@ -46,7 +46,7 @@ body:
     attributes:
       label: Do you have other social media account related to you?
       description: Please note the link.
-      placeholder: Please answer here.Facebook/Discord/slack/github......
+      placeholder: Please answer here.  Facebook/Discord/slack/github......
       value: 
     validations:
       required: false
@@ -74,15 +74,15 @@ body:
   - type: input
     id: Company_Name
     attributes:
-      label: Organization/Company Name 
-      description: What is your organization/Company name?
+      label: What is your organization/Company name? 
+      description: Organization/Company Name 
       placeholder: Please write the full name.
     validations:
       required: true
   - type: input
     id: Basic_information
     attributes:
-      label: Where did you learn about Filecoin? and when did you join Filecoin?
+      label:  Where did you learn about Filecoin? When did you join Filecoin?
       description: Please describe.
       placeholder: Please answer here.
     validations:
